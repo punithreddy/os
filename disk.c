@@ -26,6 +26,11 @@ void sstf(int noq, int qu[10], int st, int visit[10])
         min = abs(st-qu[i]);
         p = i;
         }
+     if(ch == 3)
+   {
+   s = s + abs(st - 0);
+   st = 0;
+   }
       }
  if(min == 999)
   break;
